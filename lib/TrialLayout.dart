@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:flutter_app/FavoriteWidget.dart';
 
 class TrialLayout extends StatelessWidget{
 
@@ -31,11 +32,7 @@ class TrialLayout extends StatelessWidget{
               ],
             ),
           ),
-          Icon (
-            Icons.star,
-            color: Colors.red[500]
-          ),
-          Text("41")
+          FavoriteWidget()
         ],
       )
 
